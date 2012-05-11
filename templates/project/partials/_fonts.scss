@@ -1,0 +1,27 @@
+// font-face fonts
+// see http://compass-style.org/docs/reference/compass/css3/font_face/
+
+/* IMPORT FONTS
+ -----------------------------------------------------------------------------------------------------------*/
+
+//@import "compass/css3/font-face";
+//@include font-face("FontName", font-files("path-to-font.woff","fpath-to-font.ttf", "fpath-to-font.otf", "path-to-font.svg"));
+//h1{font-family:ActionMan;}
+
+/* TYPOGRAPHY
+ -----------------------------------------------------------------------------------------------------------*/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 ,h5, .h5{
+  font-weight:bold;
+  }
+h1, .h1{
+  font-size:2em;
+  }
+h2, .h2{
+  font-size:1.6em;
+  }
+h3, .h3{
+  font-size:1.2em;
+  }
+p, .p{
+  margin:15px 0 0 0;
+  }

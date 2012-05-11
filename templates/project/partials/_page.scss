@@ -1,0 +1,19 @@
+@import "compass/css3";
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+/* STRUCTURE
+ -----------------------------------------------------------------------------------------------------------*/
+html, body{
+  width:100%;
+  height:100%;
+  font: $base-font-size $base-font-family;
+  color:$font-color;
+  line-height:$base-line-height;
+  }
+  .wrapper{
+    width:$base-site-width;  /* Width of site */
+    margin:0 auto;
+    }
